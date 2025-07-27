@@ -1,0 +1,225 @@
+/* media querry for screens that are 1200px or less */
+@media screen and (max-width: 1200px) {
+    .footer-main {
+        height: 400px;
+    }
+    
+}
+
+
+
+/* media querry for screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    .img-logo {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .nav-menu {
+        margin: 0px;
+        width: 100%;
+        text-align: end;
+
+    }
+    .nav-item .dropbtn {
+       text-align: start;
+       margin-left: 25px;
+      }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .nav-main-div {
+        border-top: 1px solid rgba(128, 128, 128, 0.192);
+        margin-top: 10px;
+    }
+
+    .logo-1 {
+        border-right: 0px;
+    }
+
+    .dropdown {
+        background-color: white;
+        padding-left: 370px;
+        padding-right: 370px;
+    }
+
+    .carousel-img-text {
+        position: absolute;
+        top: 40px;
+        left: 110px;
+    }
+
+    .counter-sec {
+        height: 550px;
+    }
+
+    .counter-sec-ro {
+        text-align: center;
+    }
+
+    .count-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .bitcoin {
+        z-index: 1;
+    }
+
+    .process-sec-mid {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-box-3 {
+        display: none;
+    }
+
+    .tes-img-3 {
+        display: none;
+    }
+
+    .slide-1-h1 h1 {
+        font-size: 43px;
+    }
+
+    .slide-2-h1 h1 {
+        font-size: 43px;
+    }
+
+    .slide-3-h1 h1 {
+        font-size: 43px;
+    }
+
+    .footer-main {
+        height: 615px;
+    }
+
+}
+
+/* media querry for screens that are 768px or less */
+@media screen and (max-width: 768px) {
+    .carousel-img-text {
+        padding-bottom: 20px;
+    }
+
+    .counter-sec {
+        height: 980px;
+    }
+
+    .testimonial-box-2 {
+        display: none;
+    }
+
+    .tes-img-2 {
+        display: none;
+    } 
+
+    .slide-1-h1 h1 {
+        font-size: 32px;
+    }
+
+    .slide-2-h1 h1 {
+        font-size: 32px;
+    }
+
+    .slide-3-h1 h1 {
+        font-size: 32px;
+    }
+
+    .slider-item img {
+        height: 350px;
+    }
+
+}
+
+/* media querry for screens that are 576px or less */
+@media screen and (max-width: 576px) {
+    .footer-main {
+        padding: 30px;
+    }
+
+    .dropdown {
+        padding-left: 80px;
+    }
+
+    .slide-1-h1 h1 {
+        font-size: 32px;
+    }
+
+    .slide-2-h1 h1 {
+        font-size: 30px;
+    }
+
+    .slide-3-h1 h1 {
+        font-size: 30px;
+    }
+
+    .footer-main {
+        height: 985px;
+    }
+
+    .slider-item img {
+        height: 420px;
+    }
+
+    .c-text {
+        margin-left: -30px;
+    }
+    .footer-main {
+        height: 995px;
+    }
+}
+
+/* media querry for screens that are 400px or less */
+@media screen and (max-width: 400px){
+    .footer-main {
+        height: 1015px;
+    }
+    
+}
+
+/* media querry for screens that are 387px or less */
+@media screen and (max-width: 387px){
+    .footer-main {
+        height: 1035px;
+    }
+    
+}
+
+/* media querry for screens that are 320px or less */
+@media screen and (max-width: 320px){
+    .footer-main {
+        height: 1045px;
+    }
+    
+}
+
+
+
+
+
+
+/* media querry for screens that are 992px or greater */
+@media screen and (min-width: 992px) {
+    .bitcoin {
+        position: absolute;
+        top: 380px;
+        left: 700px;
+        background-color: #0c1f3888;
+        padding: 20px;
+        z-index: 1;
+    }
+    .navbar {
+        height: 60px;
+    }
+}
+
+/* media querry for screens that are 1300px or greater */
+@media screen and (min-width: 1300px) {
+    
+}

@@ -1,0 +1,108 @@
+.market-sec {
+    width: 100%;
+    height: 400px;
+    background-image: url(http://127.0.0.1:5500/images/slider3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+  }
+  
+  .market-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #050a109e;
+  }
+  
+  .market-bg h1 {
+    margin-top: 185px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .crypto-market{
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .crypto-market span{
+    color: #daa106;
+  }
+  .india-market{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .india-market span{
+    color: #daa106;
+  }
+
+  .graph-img img{
+    height: 500px;
+  }
+
+  .market-details{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .market-main-content{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .market-details-box{
+    height: 220px;
+    box-shadow: 5px 5px 5px 5px rgba(177, 168, 168, 0.623);
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    text-align: center;
+    padding-top: 25px;
+  }
+  .c2{
+    margin-top: 55px;
+  }
+  .market-details-box:hover{
+    transform: scale(1.1);    
+  }
+  .market-details-box h6{
+    color: #2e8b57;
+    font-weight: 600;
+  }
+  .market-details-box .p1 , .p2{
+    color: #2e8b57;
+    font-weight: 600;
+  }
+  .p3{
+    color: black;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .market-table{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .market-table h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .market-table span{
+    color: #daa106;
+    font-weight: bold;
+  }
+
+
+
+
+  /* media querry for screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    .market-details-box-hed{
+        text-align: start;  
+        padding-left: 40px;     
+      }
+    
+}
+  
+  
+ 

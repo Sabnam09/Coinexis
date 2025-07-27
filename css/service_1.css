@@ -1,0 +1,53 @@
+.ser-detail-sec{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.services_list ul li{
+    list-style: none;
+    margin-top: 10px;
+    padding: 5px 0px 5px 5px;
+    border: 1px solid rgba(220, 220, 220, 0.822);
+    background-color: rgba(220, 220, 220, 0.151);
+}
+.services_list ul li a{
+    font-weight: bold;
+    text-align: start;
+    border: none;
+}
+.services_list ul li:hover{
+    cursor: pointer;
+    background-color: white;
+    border-left: 4px solid black;
+}
+.services_details{
+    padding: 20px;
+}
+.services_details h4{
+    color: #daa106;
+}
+.services_details p{
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+
+
+/* media querry for screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    .services_list ul{
+        margin-left: -60px;
+    }
+
+
+}
+
+/* media querry for screens that are 768px or less */
+@media screen and (max-width: 768px) {
+    .services_list ul{
+        margin-right: 20px;
+        margin-left: -15px;
+    }
+
+
+}
